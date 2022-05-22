@@ -20,7 +20,7 @@ for i in range(1,13):
 width = fondo.get_width()
 height = fondo.get_height()
 window = pygame.display.set_mode((width, height))
-pygame.display.set_caption('Space Invader')
+pygame.display.set_caption('Galaxikids')
 run = True
 fps = 60
 clock = pygame.time.Clock()
@@ -33,7 +33,7 @@ negro = (0,0,0)
 screen = pygame.display.set_mode((1000, 800))
 
 # Caption and Icon
-pygame.display.set_caption("Space Invader")
+pygame.display.set_caption("Galaxikids")
 icon = pygame.image.load('ufo.png')
 pygame.display.set_icon(icon)
 
